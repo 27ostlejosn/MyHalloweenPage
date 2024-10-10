@@ -1,19 +1,24 @@
-.permanent-marker-regular {
-    font-family: "Permanent Marker", cursive;
+.acme-regular {
+    font-family: "Acme", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
+  }
+  
 
 body{
-    background-image: url('https://raw.githubusercontent.com/27ostlejosn/MyHalloweenPage/refs/heads/main/images/background.png?token=GHSAT0AAAAAACYUQOFSP3FTQRPMWFH4VR3KZYH7SVQ');
+    background-image: url('https://codehs.com/uploads/7abbbdf43f1d5e01fcfa297bfc25b1c0');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: "Acme";
 
     padding-left: 10%;
     padding-right: 10%;
 }
-h1{
+h1,h2{
     color: blanchedalmond;
     text-align: center;
+}
+h2{
+    font-size: 35px;
 }
