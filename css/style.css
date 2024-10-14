@@ -11,14 +11,39 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: "Acme";
+    margin: 0;
 
+}
+h1,h2,h5{
+    color: blanchedalmond;
+    text-align: center;
     padding-left: 10%;
     padding-right: 10%;
 }
-h1,h2{
-    color: blanchedalmond;
-    text-align: center;
-}
 h2{
     font-size: 35px;
+}
+#name{
+    position: relative;
+    bottom: 20px;
+}
+nav{
+    text-align: center;
+    color: orangered;
+    font-size: 24px;
+    font-weight: 100;
+    position: sticky;
+    top: 0;
+    border: 2px solid #FFFFFF;
+    background-color: rgb(83, 6, 114);
+}
+.head-link{
+    font-weight: 800;
+    color: orangered;
+    text-decoration: none;
+}
+footer{
+    background-color: gray;
+    border-top: 2px solid #FFFFFF;
+    text-align: center
 }
