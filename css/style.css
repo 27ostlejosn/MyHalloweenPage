@@ -2,9 +2,32 @@
     font-family: "Acme", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
+main{
+    animation-name: page_fade_in;
+    animation-duration: 2s;
+}
+
+nav{
+    position: sticky;
+    text-align: center;
+    color: #ff6600;
+    font-size: 24px;
+    font-weight: 100;
+    border: 2px solid #FFFFFF;
+    background-color: rgb(83, 6, 114);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+nav > a{
+    font-weight: 800;
+    color: inherit;
+    text-decoration: none;
+}
+nav > a:hover{
+    color: #ff0000;
+}
 body{
     background-image: url('https://codehs.com/uploads/7abbbdf43f1d5e01fcfa297bfc25b1c0');
     background-repeat: no-repeat;
@@ -14,7 +37,7 @@ body{
     margin: 0;
 
 }
-h1,h2,h5{
+h1,h2,h5,p{
     color: blanchedalmond;
     text-align: center;
     padding-left: 10%;
@@ -23,27 +46,24 @@ h1,h2,h5{
 h2{
     font-size: 35px;
 }
-#name{
-    position: relative;
-    bottom: 20px;
-}
-nav{
-    text-align: center;
-    color: orangered;
-    font-size: 24px;
-    font-weight: 100;
-    position: sticky;
-    top: 0;
-    border: 2px solid #FFFFFF;
-    background-color: rgb(83, 6, 114);
-}
-.head-link{
-    font-weight: 800;
-    color: orangered;
-    text-decoration: none;
-}
+
 footer{
     background-color: gray;
     border-top: 2px solid #FFFFFF;
     text-align: center
+}
+
+/*Index page contents*/
+.title{
+    padding-top: 4%;
+}
+#subtitle{
+    position: relative;
+    bottom: 15px;
+    padding-bottom: 60%;
+}
+
+@keyframes page_fade_in {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
