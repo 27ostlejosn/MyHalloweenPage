@@ -34,7 +34,7 @@
 
         <main>
 
-            <h1>Welcome, To the Hunted Potion</h1>
+            <h1>Welcome, To the Haunted Potion</h1>
 
         </main>
 

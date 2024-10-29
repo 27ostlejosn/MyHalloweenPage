@@ -74,6 +74,14 @@ footer > h1,h2,h3,h4,h5,h6,p{
     0%   {opacity: 0;}
     100% {opacity: 1;}
 }
+@keyframes page_fade_in {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        }
+}
 
 
 
