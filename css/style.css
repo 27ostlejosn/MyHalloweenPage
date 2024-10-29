@@ -7,6 +7,8 @@
 main{
     animation-name: page_fade_in;
     animation-duration: 2s;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 nav{
@@ -37,7 +39,7 @@ body{
     margin: 0;
 
 }
-h1,h2,h5,p{
+h1{
     color: blanchedalmond;
     text-align: center;
     padding-left: 10%;
