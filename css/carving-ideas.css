@@ -1,0 +1,24 @@
+#carvingIdeas{
+    text-align: center;
+    padding-left: 20%;
+    padding-left: 20%;
+}
+.carvingIdea{
+    background-color: rgba(113, 0, 128, 0.603);
+    outline: black;
+    outline-width: 5px;
+    border-radius: 30px;
+    padding-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.carvingIdea > img{
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+.carvingIdea > h2{
+    padding-bottom: 30px;
+}
