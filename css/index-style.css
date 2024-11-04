@@ -12,3 +12,10 @@ h1,h2,h5,p{
     bottom: 15px;
     padding-bottom: 5%;
 }
+
+table{
+    margin-bottom: 50px;
+}
+tr{
+    padding-top: 30px;
+}

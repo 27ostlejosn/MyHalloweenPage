@@ -1,54 +1,15 @@
-/*
-#carvingIdeas{
-    text-align: center;
-    padding-left: 20%;
-    padding-left: 20%;
+table{
+    margin-left: auto;
+    margin-right: auto;
 }
-.carvingIdea{
-    background-color: rgba(113, 0, 128, 0.603);
-    outline: black;
-    outline-width: 5px;
-    border-radius: 30px;
-    padding-top: 2%;
-    margin-left: 30%;
-    margin-right: 30%;
+td{
+    padding: 10px;
 }
-
-.carvingIdea > img{
-    border-radius: 20px;
-    width: 90%;
-    height: 90%;
-}
-
-.carvingIdea > h2{
-    padding-bottom: 30px;
-}
-*/
-/*
-.entry{
-    background-color: green;
-    text-align: center;
-    padding: 25px;
-    border-radius: 25px;
-    margin-left: 38%;
-    margin-right: 38%;
-    margin-top: 3%;
-    margin-bottom: 3%
-}
-    */
-.idea > img{
+td > img{
     border-radius: 35px;
 }
-
-
-.idea > h2{
-    position: relative;
-    left: 450px;
-    bottom: 225px;
+td > h2{
+    text-align: left;
+    padding-left: 20px;
     font-size: 48px;
-}
-.idea{
-    text-align: center;
-    position: relative;
-    right: 200px;
 }
